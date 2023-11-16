@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blueHolo"
+    android:gravity="center"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Developer"
+        android:textColor="@color/purple_500"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/reu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="REUBEN OLUYALI\noluyalireuben1@gmail.com\n0792744763"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonDDBack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/btn_bg"
+        android:text="BACK" />
+
+
+</RelativeLayout>
